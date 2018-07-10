@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/parse_num"
+        android:title="testNumProc"/>
+	
+    <item
+        android:id="@+id/fonem"
+        android:title="testFonem"/>
+    
+</menu>

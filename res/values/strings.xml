@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YukBaca</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_cam">CamActivity</string>
+    <string name="title_activity_result_acivity">ResultAcivity</string>
+    <string name="title_activity_suku_kata">SukuKata</string>
+    <string name="title_activity_about_activuty">AboutActivuty</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_library">LibraryActivity</string>
+    <string name="pengantar">Hai, disini disimpan semua kata-kata yang telah kamu tangkap dengan YukBaca</string>
+    <string name="title_activity_test_parse_num">TestParseNum</string>
+    <string name="title_activity_test_fonem_me">TestFonemMe</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_tuts">TutsActivity</string>
+    <string name="title_activity_pecah_suku_kata">PecahSukuKata</string>
+
+</resources>

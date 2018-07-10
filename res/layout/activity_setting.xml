@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:summary="OCR"
+        android:title="Fitur OCR" >
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="add_bw"
+            android:summary="Lakukan konversi ke BW"
+            android:title="Konversi BW" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

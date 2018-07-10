@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yuk.baca"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon1"
+        android:label="@string/app_name"
+        android:theme="@style/style1" >
+        <activity
+            android:name="com.yuk.baca.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.yukbaca.TestActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.yuk.baca.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/style1" >
+        </activity>
+        <activity
+            android:name="com.yuk.baca.CamActivity"
+            android:label="@string/title_activity_cam"
+            android:theme="@style/style1" >
+        </activity>
+        <activity
+            android:name="com.yuk.baca.ResultAcivity"
+            android:label="@string/title_activity_result_acivity"
+            android:theme="@style/style1" >
+        </activity>
+        <activity
+            android:name="com.yuk.baca.SukuKata"
+            android:label="@string/title_activity_suku_kata"
+            android:theme="@style/style1" >
+        </activity>
+        <activity
+            android:name="com.yuk.baca.AboutActivuty"
+            android:label="@string/title_activity_about_activuty"
+            android:theme="@style/style1" >
+        </activity>
+        <activity
+            android:name="com.yuk.baca.LibraryActivity"
+            android:label="@string/title_activity_library"
+            android:theme="@style/style1" >
+        </activity>
+        <activity
+            android:name="com.example.yukbaca.TestParseNum"
+            android:label="@string/title_activity_test_parse_num" >
+        </activity>
+        <activity
+            android:name="com.example.yukbaca.TestFonemMe"
+            android:label="@string/title_activity_test_fonem_me"
+            android:theme="@android:style/Theme.Black" >
+        </activity>
+        <activity
+            android:name="com.yuk.baca.Setting"
+            android:label="@string/title_activity_setting"
+            android:theme="@android:style/Theme.Black" >
+        </activity>
+        <activity
+            android:name="com.yuk.baca.TutsActivity"
+            android:label="@string/title_activity_tuts" >
+        </activity>
+        <activity
+            android:name="com.yuk.baca.PecahSukuKata"
+            android:label="@string/title_activity_pecah_suku_kata" 
+            android:theme="@android:style/Theme.Black">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+    </application>
+
+</manifest>
